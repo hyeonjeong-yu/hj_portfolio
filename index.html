@@ -14,16 +14,20 @@
     <div id="wrap">
         <header>
             <nav>
-                <h1><a href="#none"><img src="images/logo.png" alt="logo"></a></h1>
-                <ul>
-                    <li><a href="#none" class="active">HOME</a></li>
-                    <li><a href="#none">ABOUT</a></li>
-                    <li><a href="#none">WORK</a></li>
-                    <li><a href="#none">CONTACT</a></li>
+                <h1><a href="#none" class="header__logo"><img src="images/logo.png" alt="logo"></a></h1>
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#none" class="active">HOME</a></li>
+                    <li class="header__menu-item"><a href="#none">ABOUT</a></li>
+                    <li class="header__menu-item"><a href="#none">WORK</a></li>
+                    <li class="header__menu-item"><a href="#none">CONTACT</a></li>
+                    <!-- hover 되면 color-blue class를 추가하는 방식으로 변경하기 -->
                 </ul>
             </nav>
         </header>
         <div id="fullpage">
+            <!-- 모든 영역 section 으로 통일,
+            max-width: 1920px; margin: 0 auto;
+            section별 class명 상이 알아보기 쉽게 -->
             <section id="home">
                 <p class="simpleUsage_01"></p>
                 <p class="simpleUsage_02"></p>
